@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+
+.btn {
+  display: inline-block;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 10px;
+  background-color: #df0000;
+  color: white;
+}
+
+.btn span {
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: #df9000;
+}
