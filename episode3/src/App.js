@@ -87,7 +87,7 @@ function App() {
         if (planet.isGasPlanets) return <h1>{planet.name}</h1>
       })} */}
 
-      {/* cara dua */}
+      {/* cara duaa */}
       {/* {planets.map(
         (planet, key) => planet.isGasPlanets && <h1>{planet.name}</h1>
       )} */}
