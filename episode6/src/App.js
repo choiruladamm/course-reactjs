@@ -1,9 +1,16 @@
 import "./App.css";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Text } from "./Text";
 
 function App() {
   const [showText, setShowText] = useState(false);
+
+  useEffect(() => {
+    console.log("COMPONENT MOUNTED");
+    return () => {
+      console.log("COMPONENT UNMOUNTED");
+    };
+  }, []);
 
   return (
     <div className="App">
